@@ -6,6 +6,7 @@ import ProjectsNavbar from '../components/ProjectsNavbar'
 import { Category } from '../type'
 import { motion } from 'framer-motion'
 import { stagger, fadeInUp, routeAnimation } from '../animations'
+import Head from 'next/head'
 
 const projects = () => {
   const [projects, setProjects] = useState(portfolios)
@@ -33,6 +34,9 @@ const projects = () => {
       animate="show"
       exit="finish"
     >
+      <Head>
+        <title>Web & Mobile Developer | Projects | James Slaughter</title>
+      </Head>
       <ProjectsNavbar handleFilterCategory={handleFilterCategory} active={active}/>
 
       <motion.div

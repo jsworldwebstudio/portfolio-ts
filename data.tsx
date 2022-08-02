@@ -10,44 +10,44 @@ export const services:IService[] = [
     Icon: RiComputerLine,
     title: "Frontend Developer",
     about: 
-      "I can build a beautiful and scalable SPA using <b>HTML</b>,<b> CSS</b> and <b>React.js</b>",
+      "I can build a beautiful and scalable Web application using <b>HTML</b>,<b> CSS</b> and <b>React.js</b>",
   },
   {
     Icon: FaServer,
     title: "Backend Developer",
     about: 
-      "handle database, server, api using <b>Express</b> & other popular frameworks",
+      "Build databases, servers, apis using <b>Node</b>, <b>Express</b>, <b>Mongo DB</b> & other popular frameworks",
   },
   {
     Icon: AiOutlineApi,
-    title: "API Development",
+    title: "Fullstack Development",
     about: 
-      "I can develop robust REST API using <b>Node API</b> and Headless CMS such as <b>Strapi</b>",
+      "Develop robust Fullstack applications using <b>Next Js</b> and Headless CMS such as <b>Strapi</b>",
   },
   {
-    Icon: MdDeveloperMode,
-    title: "Competitive Coder",
+    Icon: RiComputerLine,
+    title: "Mobile Developer",
     about: 
-      "a daily problem solver in <b>HackerRank</b> and <b>Leet Code</b>",
+      "Build beautiful and scalable applications for Android and iOS mobile devices using <b>React Native</b>",
   },
   {
     Icon: AiOutlineAntDesign,
     title: "UI/UX Designer",
     about: 
-      "stunning user interface designer using <b>Figma</b> and <b>Framer</b>",
+      "Stunning user interface designer using <b>Figma</b> and <b>Framer</b>",
   },
   {
-    Icon: RiComputerLine,
-    title: "Whatever",
+    Icon: MdDeveloperMode,
+    title: "Logo Designer",
     about: 
-      "I can build a beautiful and scalable SPA using <b>HTML</b>,<b> CSS</b> and <b>React.js</b>",
+      "Allow me to build a custom logo to distinguish your brand in <b>Figma</b>",
   },
 ]
 
 export const languages:ISkill[] = [
   {
-    name: 'Python',
-    level: '70%',
+    name: 'React',
+    level: '80%',
     Icon: BsCircleFill
   },
   {
@@ -57,22 +57,22 @@ export const languages:ISkill[] = [
   },
   {
     name: 'React Native',
-    level: '80%',
+    level: '60%',
     Icon: BsCircleFill
   },
   {
-    name: 'React',
+    name: 'Node/Express',
     level: '70%',
     Icon: BsCircleFill
   },
   {
-    name: 'Django',
+    name: 'NextJs',
     level: '80%',
     Icon: BsCircleFill
   },
   {
     name: 'Bootstrap',
-    level: '80%',
+    level: '60%',
     Icon: BsCircleFill
   },
 ]
@@ -84,13 +84,13 @@ export const tools:ISkill[] = [
     Icon: BsCircleFill
   },
   {
-    name: 'Photoshop',
+    name: 'Sketch',
     level: '45%',
     Icon: BsCircleFill
   },
   {
     name: 'Illustrator',
-    level: '60%',
+    level: '40%',
     Icon: BsCircleFill
   },
   {

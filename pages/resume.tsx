@@ -4,6 +4,7 @@ import { v4 as uuid } from 'uuid'
 import Bar from '../components/Bar'
 import { motion } from 'framer-motion'
 import { fadeInUp, routeAnimation } from '../animations'
+import Head from 'next/head'
 
 const resume = () => {
   return (
@@ -14,6 +15,9 @@ const resume = () => {
       animate="show"
       exit="finish"
     >
+      <Head>
+        <title>Web & Mobile Developer | Resume | James Slaughter</title>
+      </Head>
 
       <div className="grid gap-6 md:grid-cols-2">
         <motion.div

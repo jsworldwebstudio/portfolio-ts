@@ -6,6 +6,7 @@ import { services } from '../data'
 import { v4 as uuid } from 'uuid'
 import { motion } from 'framer-motion'
 import { stagger, fadeInUp, routeAnimation } from '../animations'
+import Head from 'next/head'
 
 const index = () => {
 
@@ -17,8 +18,11 @@ const index = () => {
       animate="show"
       exit="finish"
     >
+      <Head>
+        <title>Web & Mobile Developer | Portfolio | James Slaughter</title>
+      </Head>
       <h5 className="my-3 font-medium">
-        This will be my intro to development
+        Welcome to the website for JSWORLD Web Development Studio! Below are some of the services that I provide
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
